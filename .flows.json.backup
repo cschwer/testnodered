@@ -48,22 +48,5 @@
         "wires": [
             []
         ]
-    },
-    {
-        "id": "9387023ae046492e",
-        "type": "template",
-        "z": "3e26731b9fcdb0fe",
-        "name": "",
-        "field": "payload",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "This is the payload: {{payload}} !",
-        "output": "str",
-        "x": 240,
-        "y": 340,
-        "wires": [
-            []
-        ]
     }
 ]
