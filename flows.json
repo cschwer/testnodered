@@ -1,0 +1,52 @@
+[
+    {
+        "id": "3e26731b9fcdb0fe",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c91d989983bdccf5",
+        "type": "function",
+        "z": "3e26731b9fcdb0fe",
+        "name": "",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c5883a900103f4a2",
+        "type": "change",
+        "z": "3e26731b9fcdb0fe",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 480,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    }
+]
